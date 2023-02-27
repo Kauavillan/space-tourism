@@ -1,0 +1,66 @@
+/*Desktop styles*/
+@media screen and (min-width: 1000px) {
+
+    .content div{
+      width: 30%;
+      margin: 150px 0 0 10%;
+    }
+    .content a{
+      margin: 250px 20% 0 0;
+    }
+    .content h1{
+      font-size: 10em;
+      margin: 30px 0;
+    }
+  }
+/*tablet and mobile styles*/
+@media screen and (max-width: 999px)  {
+  .content div{
+    margin: 0px;
+    justify-content: center;
+  }
+  .content{
+    width: 90%;
+  }
+  .content h1{
+    font-size: 7em;
+    margin: 10px 0;
+  }
+  .content a{
+    margin-top: 15px;
+  }
+}
+
+.content span p, h1{
+    text-transform: uppercase;
+    
+}
+.content h1{
+  font-family: 'Bellefair', serif;
+  font-weight: 400;
+}
+.content span p{
+  letter-spacing: 4.725px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 2em;
+  margin: 0px;
+}
+.content p{
+  margin: 0px;
+  font-size: 1.2em;
+}
+.content button{
+  border: none;
+  font-family: 'Bellefair', serif;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: .5s;
+}
+.content button:hover{
+  width: 260px;
+  height: 260px;
+}

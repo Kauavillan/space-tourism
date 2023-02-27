@@ -1,0 +1,90 @@
+/*Desktop styles*/
+@media screen and (min-width: 1000px) {
+    .crew_image{
+        align-self: flex-end;
+        margin-right: 10%;
+    }
+    .content{
+        min-height: 793px;
+    }
+    .crew_text{
+        align-self: flex-start;
+        width: 40%;
+    }
+    .crew_text h4{
+        margin: 120px 0 50px 0;
+        font-size: 2em;
+    }
+    .crew_selectors_mobile{
+        display: none;
+    }
+    .crew_selectors:last-child{
+        display: block;
+    }
+    .crew_text p{
+        width: 70%;
+        margin-bottom: 100px;
+    }
+    .crew_text h3{
+        font-size: 3em;
+    }
+    .crew_text h4{
+        font-size: 2em;
+    }
+  } 
+
+/*mobile and tablet styles*/
+@media screen and (max-width: 999px) {
+    .crew_selectors_mobile{
+        display: block;
+    }
+    .crew_selectors:last-child{
+        display: none;
+    }
+    .crew_image_mobile{
+        width: 80%;
+    }
+    .crew_text p{
+        width: 95%;
+        margin: 0 auto 50px auto;
+    }
+    .crew_text h3{
+        font-size: 2.5em;
+    }
+    .crew_text h4{
+        font-size: 1.5em;
+    }
+}
+.content h2{
+    align-self: flex-start;
+}
+.crew_selectors button{
+    margin-right: 20px;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+}
+.crew_selectors button:not(.active){
+    background-color: rgba(148, 148, 148, 0.842);
+}
+.crew_selectors button:hover, .active{
+    background-color: white;
+}
+.crew_text h4, .crew_text h3{
+    font-family: 'Bellefair', serif;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.crew_text h4{
+    color: rgba(148, 148, 148, 0.842);
+}
+.crew_text h3{
+    margin: 0 0 30px 0;
+}
+
+.crew_selectors_mobile{
+    margin-top: 50px;
+}

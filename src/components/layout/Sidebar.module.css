@@ -1,0 +1,57 @@
+
+@media screen and (max-width: 459px) {
+    .sidebar{
+        align-items: flex-end;
+        backdrop-filter: blur(25px);
+        position: fixed;
+        height: 100%;
+        top: 0px;
+        right: 0px;
+        width: 300px;
+        animation: showSidebar .4s;
+    }
+    .sidebar span{
+        margin: 30px 10px 0 0;
+    }
+}
+@media screen and (min-width: 460px) {
+    .sidebar{
+        display: none;
+    }
+    
+}
+@keyframes showSidebar{
+    from {
+        opacity: 0;
+        width: 0;
+    }
+    to {
+        opacity: 1;
+        width: 300px;
+    }
+}
+.sidebar{
+    justify-content: start;
+}
+.sidebar ul{
+    flex-direction: column;
+    align-items: start;
+    align-self: start;
+    height: 70%;
+}
+.sidebar li{
+    list-style: none;
+}  
+.sidebar a{
+    font-size: 1.7em;
+}
+.sidebar a:hover{
+    font-size: 1.9em;
+    border: none;
+}
+.sidebar nav{
+    margin-bottom: 20px;
+}
+.sidebar img{
+    cursor: pointer;
+}

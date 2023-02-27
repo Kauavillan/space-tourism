@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+/*Main styles*/
+:root{
+  --background-mobile: "";
+  --background-tablet: "";
+  --background-desktop: "";
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  margin: 0px;
+  padding: 0px;
+  color: #fff;
+  font-family: 'Barlow', sans-serif;
+  font-size: 1em;
+  width: 100%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+p{
+  color: #d0d6f9;
+  line-height: 1.8;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#background{
+  background-color: #0B0D17;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100%;
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  z-index: -1;
+  transform: rotate(0deg);
+  min-width: 290px;
+}
+section{
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: justify;
 }
 
-.App-link {
-  color: #61dafb;
+.content{
+  margin-left: 40px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+p{
+  font-size: 1.2em;
+  letter-spacing: 1px;
+}
+/*Desktop styles*/
+@media screen and (min-width: 1000px) {
+  #background{
+    background-image: var(--background-desktop);  
   }
-  to {
-    transform: rotate(360deg);
+  .app .content{
+    flex-direction: row; 
+  }
+}
+/*tablet styles*/
+@media screen and (min-width:450px) and (max-width: 999px)  {
+  #background{
+    background-image: var(--background-tablet);
+  }
+}
+/*mobile styles*/
+@media screen and (max-width: 449px) {
+  #background{
+    background-image: var(--background-mobile);
+  }
+}
+/*Tablet and mobile styles*/
+@media screen and (max-width: 999px)  {
+  section{
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+  }
+  section div:last-child{
+    margin-bottom: 50px;
   }
 }

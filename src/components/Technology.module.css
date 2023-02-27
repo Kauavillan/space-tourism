@@ -1,0 +1,101 @@
+/*Desktop styles*/
+@media screen and (min-width: 1000px) {
+  .technology_content{
+    display: flex;
+  }
+  .technology_text p{
+    width: 50%;
+  }
+  .content h2{
+    align-self: flex-start;
+  }
+  .content > div:first-child{
+    align-self: flex-start;
+  }
+  .technology_selectors{
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 50px;
+  }
+  .technology_content{
+    margin-top: 150px;
+  }
+  .technology_text h3{
+    font-size: 4em;
+  }
+  .technology_text h4{
+    font-size: 1.2em;
+  }
+}
+/*mobile and tablet styles*/
+@media screen and (max-width: 999px) {
+  .technology_selectors{
+    flex-direction: row;
+    
+    margin: 50px 0;
+    justify-content: space-around;
+  }
+  .mobile_image img{
+    width: 100%;
+  }
+  .mobile_image{
+    margin: auto;
+  }
+  .technology_text h3{
+    font-size: 2.5em;
+  }
+  .technology_text h4{
+    font-size: 1.7em;
+  }
+  .technology_text p{
+    width: 95%;
+    margin: auto;
+    
+  }
+}
+/* setting fonts */
+.technology_selectors button, .technology_text h3{
+  font-family: 'Bellefair', serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.technology_text h4{
+   font-family: 'Barlow Condensed', sans-serif;
+   color: #d0d6f9;
+   font-weight: 400;
+   text-transform: uppercase;
+   margin: 0;
+}
+
+.technology_text h3{
+  margin: 20px 0;
+}
+.technology_selectors{
+  display: flex;
+}
+.technology_selectors button{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  font-size: 40px;
+  border: 1px solid  #ffffff62;
+  cursor: pointer;
+  transition: .5s;
+}
+.technology_selectors button:not(.active){
+  color: white;
+  background-color: transparent;
+}
+.technology_selectors button:hover, .active{
+  color: black;
+  background-color: white;
+}
+.desktop_image{
+  height: inherit;
+  display: flex;
+  align-self: center;
+}
+.desktop_image img{
+  height: inherit;
+}
