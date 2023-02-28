@@ -12,7 +12,7 @@ function App() {
       <Router>
         <Header/>
         <Routes>
-          <Route path='/' element={<IndexContent/>}/>
+          <Route path="/" element={<IndexContent/>}/>
           <Route path='destination' element={<Destination/>}/>
           <Route path='crew' element={<Crew/>}/>
           <Route path='technology' element={<Technology/>}/>
