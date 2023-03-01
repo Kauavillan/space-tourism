@@ -16,7 +16,7 @@ function Header(){
             </div>
             <nav>
                 <ul>
-                    <Link to={"/"} number={"00"} title={"HOME"}/>
+                    <Link to={"/space-tourism"} number={"00"} title={"HOME"}/>
                     <Link to={"destination"} number={"01"} title={"DESTINATION"}/>
                     <Link to={"crew"} number={"02"} title={"CREW"}/>
                     <Link to={"technology"} number={"03"} title={"TECHNOLOGY"}/>

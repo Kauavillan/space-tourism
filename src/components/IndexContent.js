@@ -14,7 +14,7 @@ function IndexContent(){
                     because we’ll give you a truly out of this world experience!
                     </p>
                 </div>
-                <Link to="destination"><button>Explore</button></Link>
+                <Link to="../destination"><button>Explore</button></Link>
             </section>
     )
 }
