@@ -4,7 +4,7 @@ Este projeto foi baseado em um desafio do site [Frontend mentor](https://www.fro
 
 ## Conhecimentos adquiridos
 
-Esse foi meu primeiro projeto pessoal criado em [Rect.js](https://pt-br.reactjs.org). Por conta disso, certamente ganhei muitos pontos de experiência sobre a biblioteca.
+Esse foi meu primeiro projeto pessoal criado em [React.js](https://pt-br.reactjs.org). Por conta disso, certamente ganhei muitos pontos de experiência sobre a biblioteca.
 
 Além disso, também aprimorei minhas habilidades em:
 * Javascript
@@ -33,4 +33,4 @@ Página Technology
 ![](./Screenshots/Technology.png)
 
 
-Caso queira ver a estilização para dispositivos móveis, além de vários outros detalhes, <a href="https://kauavillan.github.io/space-tourism" target="_blank">clique aqui para visitar o site 👆</a>
+Caso queira ver a estilização para dispositivos móveis, além de vários outros detalhes, <a href="https://kauavillan.github.io/space-tourism" target="_blank">clique aqui para visitar o site 👆</a>!
