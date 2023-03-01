@@ -17,13 +17,20 @@ Além disso, também aprimorei minhas habilidades em:
 
 ## Capturas de tela
 Página inicial
+
 ![](./Screenshots/Homepage.png)
 
 Página Destination
+
 ![](./Screenshots/Destination.png)
 
 Página Crew
+
 ![](./Screenshots/Crew.png)
 
 Página Technology
+
 ![](./Screenshots/Technology.png)
+
+
+[Clique aqui para ver mais detalhadamente 👆](https://kauavillan.github.io/space-tourism)
