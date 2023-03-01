@@ -1,11 +1,11 @@
 # Site [Space Tourism](https://kauavillan.github.io/space-tourism)
-
+![](./Screenshots/Homepage.png)
 Esse site foi baseado em um desafio do site [Frontend mentor](https://www.frontendmentor.io/challenges). Clique no link acima para visitá-lo.
 
 ## Conhecimentos adquiridos
 
 Esse foi meu primeiro projeto pessoal criado em [Rect.js](https://pt-br.reactjs.org). Por conta disso, certamente ganhei muitos pontos de experiência sobre a biblioteca.
-![](./screenshot/homepage.png)
+
 Além disso, também aprimorei minhas habilidades em:
 * Javascript
 * Css
