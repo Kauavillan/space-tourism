@@ -33,4 +33,4 @@ Página Technology
 ![](./Screenshots/Technology.png)
 
 
-Caso queira ver a estilização para dispositivos móveis, além de vários outros detalhes, [clique aqui para visitar o site 👆](https://kauavillan.github.io/space-tourism)!
+Caso queira ver a estilização para dispositivos móveis, além de vários outros detalhes, <a href="https://kauavillan.github.io/space-tourism" target="_blank">clique aqui para visitar o site 👆</a>
