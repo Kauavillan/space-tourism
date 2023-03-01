@@ -1,5 +1,5 @@
 # Site [Space Tourism](https://kauavillan.github.io/space-tourism)
-![](./Screenshots/Homepage.png)
+
 Esse site foi baseado em um desafio do site [Frontend mentor](https://www.frontendmentor.io/challenges). Clique no link acima para visitá-lo.
 
 ## Conhecimentos adquiridos
@@ -15,3 +15,15 @@ Além disso, também aprimorei minhas habilidades em:
 ## Sobre o Frontend Mentor
 É um site que disponibiliza desafios que envolvem a criação de páginas voltadas para o frontend. Ele te dá arquivos com os textos utilizados, imagens de como o site deve ficar e, na maioria dos casos, uma lista com as fontes e cores que devem ser utilizadas (não é o caso desse projeto 😭). Fora isso, todo o trabalho é com você!
 
+## Capturas de tela
+Página inicial
+![](./Screenshots/Homepage.png)
+
+Página Destination
+![](./Screenshots/Destination.png)
+
+Página Crew
+![](./Screenshots/Crew.png)
+
+Página Technology
+![](./Screenshots/Technology.png)
