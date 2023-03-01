@@ -1,6 +1,6 @@
 # Site [Space Tourism](https://kauavillan.github.io/space-tourism)
 
-Esse site foi baseado em um desafio do site [Frontend mentor](https://www.frontendmentor.io/challenges)
+Esse site foi baseado em um desafio do site [Frontend mentor](https://www.frontendmentor.io/challenges). Clique no link acima para visitá-lo.
 
 ## Conhecimentos adquiridos
 
